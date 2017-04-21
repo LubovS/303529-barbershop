@@ -1,0 +1,17 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.shop-item h1 {
+  font-size: 30;
+  line-height: 42;
+}
+
+.item h2 {
+	font-size: 14px;
+	line-height: 18px;
+}
