@@ -16,7 +16,6 @@ body {
   line-height: 18px;
 }
 
-
 html,
 body {
   min-width: 1200px;
@@ -61,9 +60,10 @@ body {
 }
 
 .shop-item {
-	margin-bottom: 43px;
-	min-height: 72px;
-} 
+  width: auto;
+  min-height: 71px;
+  margin-bottom: 47px;
+}
 
 .search-catalog {
   float: left;
@@ -71,10 +71,9 @@ body {
 }
 
 .brand {
-	float: left;
+  float: left;
   width: auto;
   min-height: 260px;
-  background-color: yellow;
 }
 
 .items-group {
@@ -82,7 +81,6 @@ body {
   width: auto;
   margin-top: 51px;
   min-height: 168px;
-  background-color: yellow;
 }
 
 .btn-show-place {
@@ -95,12 +93,10 @@ body {
 .catalog-items {
   float: right;
   width: 700px;
-  padding-top: 3px;
 }
 
 .catalog-items {
   font-size: 0px;
-
 }
 
 .item {
@@ -109,9 +105,8 @@ body {
   font-size: 14px;
   width: 220px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 19px;
   min-height: 287px;
-  background-color: yellow;
 }
 
 .item:nth-child(1),
@@ -119,7 +114,6 @@ body {
 .item:nth-child(3) {
   margin-top: 0px;
 }
-
 
 .item:nth-child(3n) {
   margin-right: 0;
@@ -134,7 +128,7 @@ body {
 
 .main-footer {
   margin-top: 49px;
-	padding-top: 59px;
+  padding-top: 59px;
   padding-bottom: 38px;
 }
 
@@ -157,6 +151,68 @@ body {
   min-height: 93px;
 }
 
+.product-left-column {
+  float: left;
+  width: 460px;
+  min-height: 670px;
+}
+.main-img{
+  float: left;
+  width: 460px;
+  min-height: 498px;
+}
+
+.bottom-gallery-item {
+  font-size: 0px;
+}
+
+.bottom-gallery-item img{
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  min-height: 149px;
+  margin-right: 20px;
+  margin-top: 21px;
+  min-height: 149px;
+}
+
+.bottom-gallery-item img:last-child {
+  margin-right: 0;
+}
+
+.product-right-column {
+  float: right;
+  width: 390px;
+  min-height: 649px;
+  padding-top: 21px;
+}
+
+.top-box {
+  widht: auto;
+  min-height: 20px;
+  margin-bottom: 31px;
+}
+
+.info-item {
+  widht: auto;
+  min-height: 142px;
+  margin-bottom: 39px;
+}
+
+.price-btn {
+  widht: auto;
+  min-height: 43px;
+  margin-bottom: 66px;
+}
+
+.сomp-item {
+  widht: auto;
+  min-height: 170px;
+}
+
+
+
+
 
 
 
@@ -173,8 +229,6 @@ body > * {
   background: rgba(0, 128, 0, 0.2);
   box-shadow: 0 0 0 3px green;
 }
-
-
 
 body > * > * {
   background: rgba(255, 45, 82, 0.2);

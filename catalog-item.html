@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo">
           <a class="#"><img src="img/Logo.png" width="111" height="24" alt="Барбершоп"></a>
         </div>
@@ -16,6 +16,7 @@
             <li>
               <a>Информация</a>
             </li>
+            <!--для сетки
             <li>
               <a>Новости</a>
             </li>
@@ -28,10 +29,12 @@
             <li>
               <a>Контакты</a>
             </li>
+            -->
           </ul>
         </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
+          <!--для сетки
           <div class="login-inner">
             <div class="title-log-form">
               Личный кабинет
@@ -46,6 +49,7 @@
               <button class="btn" type="submit">Войти</button>
             </form>
           </div>
+          -->
         </div>
       </div>
     </header>
@@ -59,16 +63,18 @@
           <a>Набор для путешествий "Baxter of California"</a>
         </div>
       </div>
-      <section class="catalog-wrapper">
+      <section class="catalog-wrapper clearfix">
         <div class="product-left-column">
           <div class="gallery-item">
             <img class="main-img" src="img/catalog-item-1.jpg" width="460" height="498" alt="Фотографии продукта">
-            <img src="img/catalog-item-2.jpg" width="140" height="149" alt="">
-            <img src="img/catalog-item-3.jpg" width="140" height="149" alt="">
-            <img src="img/catalog-item-4.jpg" width="140" height="149" alt="">
+            <div class="bottom-gallery-item">
+              <img src="img/catalog-item-2.jpg" width="140" height="149" alt="">
+              <img src="img/catalog-item-3.jpg" width="140" height="149" alt="">
+              <img src="img/catalog-item-4.jpg" width="140" height="149" alt="">
+            </div>
           </div>
         </div>
-        <div class="product-right-column">
+        <div class="product-right-column clearfix">
           <div class="product-about">
             <div class="top-box">
               <span class="product-availability">Есть в наличии</span>
@@ -96,7 +102,7 @@
       </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           <span class="index-content-title">Барбершоп «Бородинский»</span>
           <span class="adress">Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
