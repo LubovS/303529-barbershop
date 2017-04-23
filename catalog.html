@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo">
           <a href="#"><img src="img/Logo.png" width="111" height="24" alt="Барбершоп"></a>
         </div>
@@ -16,6 +16,7 @@
             <li>
               <a href="#">Информация</a>
             </li>
+             <!--
             <li>
               <a href="#">Новости</a>
             </li>
@@ -28,10 +29,12 @@
             <li>
               <a href="#">Контакты</a>
             </li>
+            -->
           </ul>
         </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
+          <!--
           <div class="login-inner">
             <div class="title-log-form">
               Личный кабинет
@@ -46,6 +49,7 @@
               <button class="btn" type="submit">Войти</button>
             </form>
           </div>
+          -->
         </div>
       </div>
     </header>
@@ -58,8 +62,8 @@
           <a>Средства для ухода</a>
         </div>
       </div>
-      <div class="catalog-wrapper">
-        <div class="search-catalog">
+      <div class="catalog-wrapper clearfix">
+        <div class="search-catalog clearfix">
           <form action="#" method="get">
             <div class="brand">
               <div class="search-name">
@@ -88,8 +92,10 @@
               <label for="means-for-care">Средства для ухода</label>
               <input type="radio" name="items-group" value="accessories" id="accessories">
               <label for="accessories">Аксессуары</label>
-            </div>
-            <button class="btn-show" type="submit">Показать</button>         
+            </div class="btn-show-place">
+            <div>
+              <button class="btn-show" type="submit">Показать</button>
+            </div>         
           </form>
         </div>
         <section class="catalog-items">
@@ -151,7 +157,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           <span class="index-content-title">Барбершоп «Бородинский»</span>
           <span class="adress">Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
