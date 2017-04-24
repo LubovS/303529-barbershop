@@ -62,37 +62,53 @@ body {
 .shop-item {
   width: auto;
   min-height: 71px;
-  margin-bottom: 47px;
+  margin-bottom: 42px;
 }
 
 .search-catalog {
+  font-size: 14px; 
+  line-height: 18px;
   float: left;
   width: 220px;
 }
 
+legend h2 {
+  font-size: 24px; 
+  line-height: 30px;
+}
+
+.filter ul {
+  margin-top: 22px;
+}
+
 .brand {
-  float: left;
   width: auto;
   min-height: 260px;
 }
 
+.brand li {
+  margin-bottom: 17px;
+}
+
 .items-group {
-  float: left;
   width: auto;
-  margin-top: 51px;
+  margin-top: 22px;
   min-height: 168px;
 }
 
+.items-group li {
+  margin-bottom: 17px;
+}
+
 .btn-show-place {
-  float: left;
-  width: auto;
-  margin-top: 50px;
+  margin-top: 35px;
   min-height: 45px;
 }
 
 .catalog-items {
   float: right;
   width: 700px;
+  padding-top: 6px;
 }
 
 .catalog-items {
@@ -105,14 +121,8 @@ body {
   font-size: 14px;
   width: 220px;
   margin-right: 20px;
-  margin-top: 19px;
+  margin-bottom: 19px;
   min-height: 287px;
-}
-
-.item:nth-child(1),
-.item:nth-child(2),
-.item:nth-child(3) {
-  margin-top: 0px;
 }
 
 .item:nth-child(3n) {
@@ -120,7 +130,7 @@ body {
 }
 
 .pagination {
-  margin-top: 45px;
+  margin-top: 26px;
   font-size: 14px;
   line-height: 18px;
   min-height: 45px;
@@ -155,9 +165,10 @@ body {
   float: left;
   width: 460px;
   min-height: 670px;
+  padding-top: 6px;
 }
+
 .main-img{
-  float: left;
   width: 460px;
   min-height: 498px;
 }
@@ -172,7 +183,7 @@ body {
   width: 140px;
   min-height: 149px;
   margin-right: 20px;
-  margin-top: 21px;
+  margin-top: 14px;
   min-height: 149px;
 }
 
@@ -184,7 +195,7 @@ body {
   float: right;
   width: 390px;
   min-height: 649px;
-  padding-top: 21px;
+  padding-top: 25px;
 }
 
 .top-box {
